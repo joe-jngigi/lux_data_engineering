@@ -43,3 +43,21 @@ These are various common tools that can b e used for EDA. `Python` and `R` are t
 >>Other common tools include; Tablue, Power BI, RStudio, SAS and IBM SPSS
 
 EDA tools provide a range of statistical functions and techniques that can be used to gain insights and make data-driven decisions. Some of these functions include Data visualization, Correlation analysis, egression analysis, Clustering and dimension reduction techniques and clustering analysis
+
+## Data Analysis
+
+- Inspect & read, clean and Transform - we will use **pandas**
+- We the do data modeling using statistical analysis of **pandas**, visualization tools of **matplotlib** and **seaborn**
+- Extraction and derive conclusion. Here we will transform data into useful information.
+- Lastly, we need to provide an infroming conclusion, by creating readable reports, dashboards</br>
+
+**Tools**</br>
+Python(Opensource, steep learning curve)</br>
+Pandas, matplotlib, numpy, seaborn, statsmodels, scipy, scikit-learn
+
+The real process will be:</br>
+Data Extraction(read different file formats, scrapping, APIs, SQL)</br>
+Data Cleaning(Missinf values, Data manipulation, outliers, statistical sanitization)</br>
+Data Wrangling(Hierarchical data, handling categorical data, reshaping and transforming, data merging)</br>
+Data Analysis(Capturing trends and anomalies, extracting patterns, visualization and representations, **statistical analysis***fundamental)</br>
+Action(Building machine learning models, engineering, Building ETL pipelines, decision making)
