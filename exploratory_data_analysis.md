@@ -52,8 +52,8 @@ EDA tools provide a range of statistical functions and techniques that can be us
 - Lastly, we need to provide an infroming conclusion, by creating readable reports, dashboards</br>
 
 **Tools**</br>
-Python(Opensource, steep learning curve)</br>
-Pandas, matplotlib, numpy, seaborn, statsmodels, scipy, scikit-learn
+Python(Opensource, steep learning curve), Jupyter Notebooks, VS Code</br>
+Pandas, matplotlib, numpy, seaborn, statsmodels, scipy, scikit-learn</br>
 
 The real process will be:</br>
 Data Extraction(read different file formats, scrapping, APIs, SQL)</br>
@@ -61,3 +61,11 @@ Data Cleaning(Missinf values, Data manipulation, outliers, statistical sanitizat
 Data Wrangling(Hierarchical data, handling categorical data, reshaping and transforming, data merging)</br>
 Data Analysis(Capturing trends and anomalies, extracting patterns, visualization and representations, **statistical analysis***fundamental)</br>
 Action(Building machine learning models, engineering, Building ETL pipelines, decision making)
+
+### Jupyter Notebooks
+
+This is an open source  IDE, It is an echo system of tools and primarily used in data science. You can use [NotebooksAI](https://www.notebook.ai/users/sign_up), a project that provides Jupyter Environment for free in the cloud, so no need to download the setup locally.Jupyter Notebooks is an interactive IDE which in our case it gives us an interface where we can interact with our data. The data is not visually visible like in an Excel. Working with it allows us to work with very large datasets.
+
+The Notebook's UI is fairly easy to use and navigate, so you don't have to worry. Every codespace is a just part of a sequence of cells, that means everything works inside a cell. It supports multiple languages, but mainly I prefer using **Python** and **Markdown**. One advantage is that the Notebook work can be formatted and exported into anything someone wishes, can be a HTML file or even a PDF. Another thing is that they are optimized for data visualization, which can be quite messy if you render in a terminal(must try and render it). It provides a space where I can render charts and even make them dynamically interactive with a tool like [Bokeh](https://bokeh.org/) or [Matplotlib]
+
+You can also use VS code to create Notebooks such as the one in Jupyter NB. You can install the extension, Jupyter notebook, and when saving or creating a new file, you use the `.ipynb` extension file name which will allow it to render as a note book in the VS code. I am currently using a [VSCodeWebVersion](https://vscode.dev/) which does not currently support a code debugger.
