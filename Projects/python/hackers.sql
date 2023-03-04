@@ -8,4 +8,4 @@ SELECT submission_date, COUNT(DISTINCT hacker_id) AS unique_hackers, MAX(score) 
   FROM submissions
 )
 GROUP BY submission_date
-ORDER BY submission_date;
+ORDER BY submission_date; 
