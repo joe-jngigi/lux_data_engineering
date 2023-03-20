@@ -1,0 +1,14 @@
+             Zeitstempel   Age Gender       City  ...         Company type Сontract duration  Company business sector   0
+0    02.12.2019 11:18:26  33.0   Male     Berlin  ...              Startup         unlimited                  Tourism NaN
+1    02.12.2019 11:18:35  29.0   Male     Berlin  ...              Product         unlimited    Scientific Activities NaN
+2    02.12.2019 11:18:56   NaN   Male     Berlin  ...              Startup         unlimited                      NaN NaN
+3    02.12.2019 11:19:08  30.0   Male     Berlin  ...              Product         unlimited                Transport NaN
+4    02.12.2019 11:19:37  32.0   Male     Berlin  ...              Product         unlimited               Automotive NaN
+..                   ...   ...    ...        ...  ...                  ...               ...                      ...  ..
+986  07.01.2020 09:23:01  30.0   Male  Amsterdam  ...              Product         unlimited                  Telecom NaN
+987  07.01.2020 10:08:18  28.0   Male  Amsterdam  ...                 Bank         unlimited      Finance / Insurance NaN
+988  07.01.2020 16:52:43  42.0   Male     Munich  ...              Product         unlimited                 Сommerce NaN
+989  08.01.2020 11:18:41  33.0   Male     Berlin  ...              Product  more than 1 year                   Health NaN
+990  08.01.2020 22:20:08  32.0   Male  Frankfurt  ...  Consulting / Agency         unlimited                Transport NaN
+
+[991 rows x 23 columns]
