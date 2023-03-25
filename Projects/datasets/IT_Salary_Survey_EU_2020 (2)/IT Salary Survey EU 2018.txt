@@ -1,0 +1,14 @@
+               Timestamp   Age Gender  ... Main language at work Company size   Company type
+0    14/12/2018 12:41:33  43.0      M  ...               Deutsch     100-1000        Product
+1    14/12/2018 12:42:09  33.0      F  ...               Deutsch       50-100        Product
+2    14/12/2018 12:47:36  32.0      M  ...               Deutsch        1000+        Product
+3    14/12/2018 12:50:15  25.0      M  ...               English        1000+        Product
+4    14/12/2018 12:50:31  39.0      M  ...               English     100-1000  Ecom retailer
+..                   ...   ...    ...  ...                   ...          ...            ...
+760  03/06/2020 20:12:51  40.0      M  ...               Deutsch        10-50        Product
+761  28/07/2020 04:03:13   NaN      M  ...               Deutsch        10-50        Product
+762  28/07/2020 04:03:20   NaN      M  ...               Deutsch        10-50        Product
+763  26/08/2020 09:06:44   NaN    NaN  ...                   NaN          NaN            NaN
+764  21/09/2020 01:47:10  31.0      F  ...               English        1000+        Product
+
+[765 rows x 14 columns]
