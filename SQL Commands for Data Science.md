@@ -230,6 +230,52 @@ SELECT ROUND(revenue, 2) FROM sales;
 ## Complex Conditions
 
 ---
-We can use complex conditions in your queries by combining multiple conditions using logical operators such as AND, OR, and NOT.
+By combining different functions and clauses we have looked at, it is possible to perform complex queries within the database. We can use complex conditions in your queries by combining multiple conditions using logical operators such as AND, OR, and NOT. There ither situations where there is need to implement more logical operations to perform the requirements of our problems. This can be done in a bit more advanced SQL, like PLSQL. Some of the sql conditions we can use include
 
 ### Case Statement
+
+A case statement is a powerful way to perform conditional logic in your queries. It allows one to test more conditions. This is a basic syntax for the case statement
+
+```sql
+SELECT column1,
+       CASE
+           WHEN condition1 THEN result1
+           WHEN condition2 THEN result2
+           ELSE default_result
+       END AS result_column
+FROM table_name;
+
+```
+
+```sql
+SELECT customer_id,
+       SUM(CASE WHEN order_date >= '2022-01-01' THEN order_total ELSE 0 END) AS total_sales_2022,
+       SUM(CASE WHEN order_date < '2022-01-01' THEN order_total ELSE 0 END) AS total_sales_before_2022
+FROM orders
+GROUP BY customer_id;
+
+```
+
+In a practical example
+
+```sql
+SELECT C_NAME, C_ADDRESS, A_PHONE, AMT,
+ CASE
+     WHEN AMT < 250 THEN 'Junior Engineer'
+        WHEN AMT < 600 THEN 'Senior Enginner'
+        WHEN AMT > 800 THEN 'CTO'
+        ELSE 'Project Manager'
+ END AS CUSTOMER_POSITION
+FROM customer
+```
+
+![SelectQuery](/sql_images/casestatement.png)
+
+### Subqueries
+
+A subquery is a query that is nested inside another query. The results of the subquery are used by the outer query to perform further operations or filtering. Subqueries can be used for filtering, joining, or aggregating data.
+
+```sql
+SELECT product_name, unit_price FROM products WHERE category_id = (SELECT category_id FROM categories WHERE category_name = 'Beverages');
+
+```
